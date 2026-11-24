@@ -1,10 +1,8 @@
-<img src="brand/siphonophore/logo.svg" alt="Siphonophore" width="96" align="left">
+<img src="brand/siphonophore/banner.svg" alt="Siphonophore: Purpose-built plugins that extend Jellyfin administration" width="100%">
 
 # Siphonophore
 
 The heart of Siphonophore and its Jellyfin plugin repository.
-
-<br clear="left">
 
 ## Installing
 
@@ -56,4 +54,4 @@ To list a new plugin, add it to [plugins.json](plugins.json) with its repository
 
 ## Brand
 
-Logos and artwork are in [brand](brand).
+Logos and artwork are in [brand](brand). Every banner, card, and catalog image is built from its project's logo by [scripts/build_brand.py](scripts/build_brand.py).

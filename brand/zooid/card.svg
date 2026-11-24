@@ -12,11 +12,9 @@
   </style>
   <g transform="translate(8 8)">
   <rect class="card" x="0.5" y="0.5" width="419" height="199" rx="14"/>
-  <rect x="28" y="28" width="56" height="56" rx="14" fill="#AA5CC3"/>
-  <path d="M45 48 L67 48 L56 67 Z" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" fill="none"/>
-  <circle cx="45" cy="48" r="6" fill="#ffffff"/>
-  <circle cx="67" cy="48" r="6" fill="#ffffff"/>
-  <circle cx="56" cy="67" r="6" fill="#ffffff"/>
+  <svg x="28" y="28" width="56" height="56" viewBox="0 0 56 56"><rect width="56" height="56" rx="14" fill="#AA5CC3"/>
+  <path d="M17 20 L39 20 L28 39 Z" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" fill="none"/>
+  <circle cx="17" cy="20" r="6" fill="#ffffff"/><circle cx="39" cy="20" r="6" fill="#ffffff"/><circle cx="28" cy="39" r="6" fill="#ffffff"/></svg>
   <text class="name" x="28" y="128" font-size="28" font-weight="600">Zooid</text>
   <text class="text" x="28" y="158" font-size="16">Keeps your whole collection of Jellyfin</text>
   <text class="text" x="28" y="180" font-size="16">servers in sync with one another.</text>

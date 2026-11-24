@@ -22,6 +22,9 @@ jobs:
       - name: Test
         run: python3 -m unittest discover -s scripts -v
 
+      - name: Check brand files
+        run: python3 scripts/build_brand.py --check
+
       - name: Check JSON
         run: |
           set -euo pipefail

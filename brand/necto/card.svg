@@ -12,9 +12,9 @@
   </style>
   <g transform="translate(8 8)">
   <rect class="card" x="0.5" y="0.5" width="419" height="199" rx="14"/>
-  <rect x="28" y="28" width="56" height="56" rx="14" fill="#00A4DC"/>
-  <path d="M41 58 C41 45 47 38 56 38 C65 38 71 45 71 58 Z" fill="#ffffff"/>
-  <path d="M47 62 V72 M56 62 V75 M65 62 V72" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <svg x="28" y="28" width="56" height="56" viewBox="0 0 56 56"><rect width="56" height="56" rx="14" fill="#00A4DC"/>
+  <path d="M13 30 C13 17 19 10 28 10 C37 10 43 17 43 30 Z" fill="#ffffff"/>
+  <path d="M19 34 V44 M28 34 V47 M37 34 V44" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none"/></svg>
   <text class="name" x="28" y="128" font-size="28" font-weight="600">Necto</text>
   <text class="text" x="28" y="158" font-size="16">Tools to keep your Jellyfin server</text>
   <text class="text" x="28" y="180" font-size="16">reachable, secure and healthy.</text>

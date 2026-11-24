@@ -1,0 +1,33 @@
+[
+  {
+    "key": "siphonophore",
+    "name": "Siphonophore",
+    "subtitle": "Purpose-built plugins that extend Jellyfin administration",
+    "color": "#0B3D4F",
+    "gradient": ["#AA5CC3", "#00A4DC"]
+  },
+  {
+    "key": "necto",
+    "name": "Necto",
+    "subtitle": "Part of the Siphonophore project",
+    "color": "#00A4DC",
+    "gradient": ["#00A4DC", "#0B5F80"],
+    "card": { "size": "large", "lines": ["Tools to keep your Jellyfin server", "reachable, secure and healthy."] }
+  },
+  {
+    "key": "zooid",
+    "name": "Zooid",
+    "subtitle": "Part of the Siphonophore project",
+    "color": "#AA5CC3",
+    "gradient": ["#AA5CC3", "#5E3378"],
+    "card": { "size": "large", "lines": ["Keeps your whole collection of Jellyfin", "servers in sync with one another."] }
+  },
+  {
+    "key": "stolon",
+    "name": "Stolon",
+    "subtitle": "Part of the Siphonophore project",
+    "color": "#6E7781",
+    "gradient": ["#7D8792", "#3A4048"],
+    "card": { "size": "slim", "lines": ["Shared components and services for Siphonophore's Jellyfin plugins."] }
+  }
+]
