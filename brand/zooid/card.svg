@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200" role="img" aria-label="Zooid: Keeps your whole collection of Jellyfin servers in sync with one another.">
+  <style>
+    .card { fill: #ffffff; stroke: #d1d9e0; }
+    .name { fill: #1f2328; }
+    .text { fill: #59636e; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #151b23; stroke: #3d444d; }
+      .name { fill: #f0f6fc; }
+      .text { fill: #9198a1; }
+    }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="419" height="199" rx="14"/>
+  <rect x="28" y="28" width="56" height="56" rx="14" fill="#AA5CC3"/>
+  <path d="M45 48 L67 48 L56 67 Z" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" fill="none"/>
+  <circle cx="45" cy="48" r="6" fill="#ffffff"/>
+  <circle cx="67" cy="48" r="6" fill="#ffffff"/>
+  <circle cx="56" cy="67" r="6" fill="#ffffff"/>
+  <text class="name" x="28" y="128" font-size="28" font-weight="600">Zooid</text>
+  <text class="text" x="28" y="158" font-size="16">Keeps your whole collection of Jellyfin</text>
+  <text class="text" x="28" y="180" font-size="16">servers in sync with one another.</text>
+</svg>

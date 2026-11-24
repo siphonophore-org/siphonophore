@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200" role="img" aria-label="Necto: Tools to keep your Jellyfin server reachable, secure and healthy.">
+  <style>
+    .card { fill: #ffffff; stroke: #d1d9e0; }
+    .name { fill: #1f2328; }
+    .text { fill: #59636e; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #151b23; stroke: #3d444d; }
+      .name { fill: #f0f6fc; }
+      .text { fill: #9198a1; }
+    }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="419" height="199" rx="14"/>
+  <rect x="28" y="28" width="56" height="56" rx="14" fill="#00A4DC"/>
+  <path d="M41 58 C41 45 47 38 56 38 C65 38 71 45 71 58 Z" fill="#ffffff"/>
+  <path d="M47 62 V72 M56 62 V75 M65 62 V72" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <text class="name" x="28" y="128" font-size="28" font-weight="600">Necto</text>
+  <text class="text" x="28" y="158" font-size="16">Tools to keep your Jellyfin server</text>
+  <text class="text" x="28" y="180" font-size="16">reachable, secure and healthy.</text>
+</svg>

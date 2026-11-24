@@ -1,0 +1,20 @@
+[
+  {
+    "repo": "siphonophore-org/necto",
+    "guid": "a8b5ecb0-fc00-428b-85e8-74b85820166d",
+    "name": "Necto",
+    "overview": "Tools to keep your Jellyfin server reachable, secure and healthy.",
+    "description": "Necto brings remote access, a WireGuard VPN, user management, scripts and storage monitoring into one plugin that runs entirely inside Jellyfin.",
+    "category": "Administration",
+    "imageUrl": "https://raw.githubusercontent.com/siphonophore-org/siphonophore/main/brand/necto/catalog.svg"
+  },
+  {
+    "repo": "siphonophore-org/zooid",
+    "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
+    "name": "Zooid",
+    "overview": "Keeps your whole collection of Jellyfin servers in sync with one another.",
+    "description": "Zooid syncs content, history, metadata, people, users and playlists across Jellyfin servers, on a schedule and live between servers that both run it.",
+    "category": "Administration",
+    "imageUrl": "https://raw.githubusercontent.com/siphonophore-org/siphonophore/main/brand/zooid/catalog.svg"
+  }
+]

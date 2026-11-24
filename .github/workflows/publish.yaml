@@ -1,0 +1,51 @@
+name: Publish
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - plugins.json
+      - scripts/**
+      - .github/workflows/publish.yaml
+  repository_dispatch:
+    types: [plugin-released]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# One run at a time, so two runs never push competing manifests.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Test
+        run: python3 -m unittest discover -s scripts -v
+
+      - name: Build manifests
+        env:
+          # A token that can read private plugin repositories, when one is set.
+          GITHUB_TOKEN: ${{ secrets.RELEASES_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_manifests.py
+
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git add manifest.json manifest-unstable.json data/assets.json
+          if git diff --cached --quiet; then
+            echo "The manifests are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update manifests"
+          git push origin HEAD:main
