@@ -15,7 +15,7 @@ The heart of Siphonophore and its Jellyfin plugin repository.
 Releases that are ready for everyday use. Start here.
 
 ```
-https://raw.githubusercontent.com/siphonophore-org/siphonophore/main/manifest.json
+https://repo.siphonophore.org
 ```
 
 ### Unstable
@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/siphonophore-org/siphonophore/main/manifest.js
 Every stable release plus test builds that are still being tried out. Test builds can break things, so keep a backup of your Jellyfin data.
 
 ```
-https://raw.githubusercontent.com/siphonophore-org/siphonophore/main/manifest-unstable.json
+https://repo.siphonophore.org/unstable
 ```
 
 Add only one of the two. Jellyfin offers the newest version it finds across all repositories, so adding both is the same as adding Unstable.
