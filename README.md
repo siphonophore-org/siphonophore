@@ -15,7 +15,7 @@ The heart of Siphonophore and its Jellyfin plugin repository.
 Releases that are ready for everyday use. Start here.
 
 ```
-https://repo.siphonophore.org
+https://repo.siphonophore.org/stable
 ```
 
 ### Unstable
