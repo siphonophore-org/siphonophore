@@ -1,12 +1,12 @@
 """Builds every brand image from each project's logo, so a new logo reaches every banner, card, and catalog image.
 
-brand/projects.json lists the projects. For each one, brand/<key>/logo.svg is the source. This writes:
+data/brand.json lists the projects. For each one, brand/<key>/logo.svg is the source. This writes:
 
 * banner.svg, the wide banner at the top of the project's README: its name and subtitle on a color band, over its logo
 * catalog.svg, the 16:9 image the Jellyfin plugin catalog shows: the logo on the project's color
 * card.svg, for a project with a card: its tile on the organization profile, in the reader's light or dark theme
 
-Run it after changing a logo or projects.json. With --check it changes nothing and fails when a built file is stale.
+Run it after changing a logo or data/brand.json. With --check it changes nothing and fails when a built file is stale.
 """
 
 import argparse
@@ -122,7 +122,7 @@ def card(project):
 
 
 def outputs():
-    with open(os.path.join(BRAND, "projects.json"), encoding="utf-8") as handle:
+    with open(os.path.join(ROOT, "data", "brand.json"), encoding="utf-8") as handle:
         projects = json.load(handle)
     for project in projects:
         yield os.path.join(project["key"], "banner.svg"), banner(project)

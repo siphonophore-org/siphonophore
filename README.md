@@ -84,4 +84,27 @@ To list a new plugin, add it to [plugins.json](plugins.json) with its repository
 
 ## Brand
 
-Logos and artwork are in [brand](brand). Every banner, card, and catalog image is built from its project's logo by [scripts/build_brand.py](scripts/build_brand.py).
+[brand](brand) holds only images: each project's logos and artwork, which every repository and the plugin catalog load from here. Every logo is a placeholder until the final artwork is made.
+
+| | Project | Color |
+| --- | --- | --- |
+| <img src="brand/siphonophore/logo.svg" width="40"> | Siphonophore | `#0B3D4F` |
+| <img src="brand/necto/logo.svg" width="40"> | Necto | `#00A4DC` |
+| <img src="brand/zooid/logo.svg" width="40"> | Zooid | `#AA5CC3` |
+| <img src="brand/stolon/logo.svg" width="40"> | Stolon | `#6E7781` |
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | The square mark. It is the only file drawn by hand, and the SVGs below are built from it. |
+| `banner.svg` | The banner at the top of the project's README: its name and subtitle on a color band, over its logo. |
+| `catalog.svg` | The 16:9 image the Jellyfin plugin catalog shows: the logo on the project's color. |
+| `catalog.png` | The same image at 1920×1080, which a plugin's build puts in its zip as the installed plugin's image. Plugins only. |
+| `card.svg` | The project's tile on the organization profile. It follows the reader's light or dark theme. Siphonophore itself has none. |
+
+To change the artwork:
+
+1. Replace `brand/<project>/logo.svg`. It needs a `viewBox`.
+2. Change the name, subtitle, colors, or card text in [data/brand.json](data/brand.json) if they change too.
+3. Run `python3 scripts/build_brand.py` to build the banner, catalog image, and card again.
+4. Export `catalog.svg` to `catalog.png` at 1920×1080 for each plugin.
+5. Commit them with the logo.
