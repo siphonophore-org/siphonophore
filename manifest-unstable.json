@@ -17,6 +17,38 @@
         "timestamp": "2026-11-25T06:52:25Z"
       },
       {
+        "version": "12.4.1.4",
+        "changelog": "\n## Added\n- Recent activity, at the bottom of the Dashboard, lists Zooid's newest activity log entries with how long ago each happened\n\n## Changed\n- The Storage tool shows in the sidebar only once a server this one pulls from has library mappings\n- Troubleshooting counts the records of each table that has any in a badge before its Reset button\n\n## Fixed\n- Turning copies back into links said \"0 copies will turn back\" and gave its reason in lowercase. It says why plainly\n\n## Developer\n- GET /Sync/Activity?limit= gives Zooid's newest activity log entries, newest first, 20 by default and up to 50",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.4/zooid-12.4.1.4.zip",
+        "checksum": "754defa3e28909e7953f3387b6f7d7a6",
+        "timestamp": "2026-11-27T19:12:30Z"
+      },
+      {
+        "version": "12.4.1.3",
+        "changelog": "\n## Changed\n- A library's side panel on the Storage page puts History above the library filter, so a long filter list sits last\n- The Storage page shows its count cards only while content sync is on, so a lone Libraries card no longer shows",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.3/zooid-12.4.1.3.zip",
+        "checksum": "7e8a94e684a2b0acb570e3ffdbd79182",
+        "timestamp": "2026-11-27T18:24:19Z"
+      },
+      {
+        "version": "12.4.1.2",
+        "changelog": "\n## Fixed\n- A film added on a source in several versions lost the link for one version at random when its hints arrived. Every version keeps its link",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.2/zooid-12.4.1.2.zip",
+        "checksum": "74a84102803484e7040a77f8c38431db",
+        "timestamp": "2026-11-27T18:02:44Z"
+      },
+      {
+        "version": "12.4.1.1",
+        "changelog": "\n## Changed\n- The sidebar lists Dashboard, Queue, the sync tools, Servers, Storage, and Statistics, then Settings and Troubleshooting\n- Settings and Troubleshooting sections lead with an icon, green while a sync type is on and gray while it is off\n- Settings help is one short line per section\n- The server editor gives Direction its own step, and its access and link checks show dashes until they answer\n- The Storage tool has a tab per server, a card per library with a side panel for its settings, and one Content table filtered by Copied, Linked, or Cached\n- Link cache use shows as a bar above the Storage tool's Content table\n- The Content tool shows one Pending card that counts every pending download, replacement, and deletion\n- Troubleshooting grays a table's reset while the table is empty\n\n## Fixed\n- Server status dots lost their color after a refresh. They keep it\n- A long status such as Ignored (Copy to Link) ran past its row. The status column fits it\n\n## Developer\n- GET /Sync/Tables counts each table's rows, GET /Sync/LibraryStorage counts storage per library, and POST /Sync/LinkCache/Remove takes files out of the link cache\n- Uses Siphonophore.Stolon 12.4.9, whose tool switches, save bars, tile and dot helpers, field builders, stack layout, metered stream, per run lookup, folder probe, and disk space helpers replace the local copies",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.1/zooid-12.4.1.1.zip",
+        "checksum": "359779cbcdd1b5fa2aeb250e652b509e",
+        "timestamp": "2026-11-27T17:25:45Z"
+      },
+      {
         "version": "12.4.1.0",
         "changelog": "\n## Added\n- Content sync copies or links movies, shows, music and other files from other Jellyfin servers into mapped libraries\n- Links stream from the source server, with an optional cache and permanent copies\n- History sync merges played state, position, play count, last played date and favorites across servers\n- Metadata, people, user and playlist sync, with media segments shared between servers\n- Live changes travel between servers that both run Zooid, through a queue with retries\n- Dashboard, Statistics, Storage and Troubleshooting tools sit beside the sync tools on one page\n\n## Changed\n- The logo and catalog artwork are temporary and will be replaced\n\n## Developer\n- Every route is under /Sync. The database schema and the peer protocol are both version 1\n- Uses Siphonophore.Stolon 12.4.8",
         "targetAbi": "12.4.0.0",

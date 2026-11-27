@@ -12,5 +12,33 @@
     "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
     "version": "12.4.1.0",
     "targetAbi": "12.4.0.0"
+  },
+  "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.4/zooid-12.4.1.4.zip": {
+    "updated": "2026-11-27T19:05:47Z",
+    "checksum": "754defa3e28909e7953f3387b6f7d7a6",
+    "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
+    "version": "12.4.1.4",
+    "targetAbi": "12.4.0.0"
+  },
+  "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.3/zooid-12.4.1.3.zip": {
+    "updated": "2026-11-27T18:23:18Z",
+    "checksum": "7e8a94e684a2b0acb570e3ffdbd79182",
+    "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
+    "version": "12.4.1.3",
+    "targetAbi": "12.4.0.0"
+  },
+  "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.2/zooid-12.4.1.2.zip": {
+    "updated": "2026-11-27T18:01:39Z",
+    "checksum": "74a84102803484e7040a77f8c38431db",
+    "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
+    "version": "12.4.1.2",
+    "targetAbi": "12.4.0.0"
+  },
+  "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.1/zooid-12.4.1.1.zip": {
+    "updated": "2026-11-27T17:25:24Z",
+    "checksum": "359779cbcdd1b5fa2aeb250e652b509e",
+    "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
+    "version": "12.4.1.1",
+    "targetAbi": "12.4.0.0"
   }
 }
