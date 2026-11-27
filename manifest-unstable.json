@@ -15,6 +15,14 @@
         "sourceUrl": "https://github.com/siphonophore-org/zooid/releases/download/v12.4.2026.1/zooid-12.4.2026.1.zip",
         "checksum": "5198a9ee629eab625df71950f5a81754",
         "timestamp": "2026-11-25T06:52:25Z"
+      },
+      {
+        "version": "12.4.1.0",
+        "changelog": "\n## Added\n- Content sync copies or links movies, shows, music and other files from other Jellyfin servers into mapped libraries\n- Links stream from the source server, with an optional cache and permanent copies\n- History sync merges played state, position, play count, last played date and favorites across servers\n- Metadata, people, user and playlist sync, with media segments shared between servers\n- Live changes travel between servers that both run Zooid, through a queue with retries\n- Dashboard, Statistics, Storage and Troubleshooting tools sit beside the sync tools on one page\n\n## Changed\n- The logo and catalog artwork are temporary and will be replaced\n\n## Developer\n- Every route is under /Sync. The database schema and the peer protocol are both version 1\n- Uses Siphonophore.Stolon 12.4.8",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.0/zooid-12.4.1.0.zip",
+        "checksum": "852c00783638f7cc56a6e0e74c7ad7e5",
+        "timestamp": "2026-11-27T01:30:46Z"
       }
     ]
   }

@@ -5,5 +5,12 @@
     "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
     "version": "12.4.2026.1",
     "targetAbi": "12.4.0.0"
+  },
+  "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.0/zooid-12.4.1.0.zip": {
+    "updated": "2026-11-27T01:29:55Z",
+    "checksum": "852c00783638f7cc56a6e0e74c7ad7e5",
+    "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
+    "version": "12.4.1.0",
+    "targetAbi": "12.4.0.0"
   }
 }
