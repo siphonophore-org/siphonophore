@@ -9,6 +9,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.4.1.5",
+        "changelog": "\n## Changed\n- Side panels close with the X in their header, and still ask before discarding edits. The Cancel button is gone\n- A short last row of cards stretches to fill the row, as on the Dashboard\n\n## Fixed\n- Dialog buttons such as Keep editing broke onto two lines on a phone. Each label stays on one line\n- Timeline entries showed their date before their title. The title leads, beside its icon\n\n## Developer\n- Uses Siphonophore.Stolon 12.4.15",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/siphonophore-org/zooid/releases/download/v12.4.1.5/zooid-12.4.1.5.zip",
+        "checksum": "814d53f38d6fad28e253380bb2850759",
+        "timestamp": "2026-11-27T21:25:12Z"
+      },
+      {
         "version": "12.4.1.4",
         "changelog": "\n## Added\n- Recent activity, at the bottom of the Dashboard, lists Zooid's newest activity log entries with how long ago each happened\n\n## Changed\n- The Storage tool shows in the sidebar only once a server this one pulls from has library mappings\n- Troubleshooting counts the records of each table that has any in a badge before its Reset button\n\n## Fixed\n- Turning copies back into links said \"0 copies will turn back\" and gave its reason in lowercase. It says why plainly\n\n## Developer\n- GET /Sync/Activity?limit= gives Zooid's newest activity log entries, newest first, 20 by default and up to 50",
         "targetAbi": "12.4.0.0",
