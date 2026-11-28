@@ -1,5 +1,24 @@
 [
   {
+    "guid": "a8b5ecb0-fc00-428b-85e8-74b85820166d",
+    "name": "Necto",
+    "overview": "Tools to keep your Jellyfin server reachable, secure and healthy.",
+    "description": "Necto brings remote access, a WireGuard VPN, user management, scripts and storage monitoring into one plugin that runs entirely inside Jellyfin.",
+    "imageUrl": "https://raw.githubusercontent.com/siphonophore-org/siphonophore/main/brand/necto/catalog.svg",
+    "owner": "siphonophore",
+    "category": "Administration",
+    "versions": [
+      {
+        "version": "12.4.2026.1",
+        "changelog": "Unstable build from `06f5cf8` on the unstable branch.\n\n## Changes\n- other service instead of blank\n- write down the one page anatomy\n- map layer says just failed\n- keep the outline flag on map layers\n- outline this server on the map\n- drop the doubled proxy empty box\n- issues keeps its table when empty\n- framed empty state for proxy routes\n- stolon 12.4.16, flat disk list, full is red\n- retake screenshots for this round\n- keep the asked section clear of the header\n- move to stolon 12.4.15 and adopt its new pieces\n- jellyfin gets a local address, wildcard certs cover domains\n- digitalocean and porkbun publish acme txt records\n- space invite row buttons, browser notifications need https\n- scripts start blank, app setups move to docs\n- notifications live in settings, sections split system and services\n- chart requests and sends per day on the dashboard\n- one help line each, mergers take one group\n- jellyfin routes get presets, other routes show settings\n- scripts and groups pick permissive or restrictive\n- retake every docs screenshot\n- retake screenshots for this round\n- add per-route forwarding presets and settings\n- show requester and joiners in the request sidecar\n- lock route hosts to ddns names\n- rework invite states, reset codes and dashboard cards\n- raise stolon to 12.4.14\n- retake screenshots for the polish pass\n- show a member's current group in the list\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/siphonophore-org/necto/releases/download/v12.4.2026.1/necto-12.4.2026.1.zip",
+        "checksum": "bb12f88384eab1c5557a2a3da044a59d",
+        "timestamp": "2026-11-27T23:14:39Z"
+      }
+    ]
+  },
+  {
     "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
     "name": "Zooid",
     "overview": "Keeps your whole collection of Jellyfin servers in sync with one another.",
@@ -8,6 +27,14 @@
     "owner": "siphonophore",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.2026.2",
+        "changelog": "Unstable build from `4541487` on the unstable branch.\n\n## Changes\n- raise stolon to 12.4.15 for 12.4.1.5\n- retake statistics and servers shots\n- record badge sits before reset\n- count records on troubleshooting tables\n- hide storage until a library is mapped\n- set the release to 12.4.1.4\n- show recent activity on the dashboard\n- say why copies stayed, plainly\n- history above the filter, drop the lone card\n- say why copies stayed, plainly\n- set the release to 12.4.1.2\n- keep version links when a version hint lands\n- set the release to 12.4.1.1\n- retake screenshots on stolon 12.4.9\n- docs and notes for stolon 12.4.9\n- drop dead spacing classes, stack the storage page\n- build storage editor fields with stolon\n- use stolon dot and tile helpers\n- use stolon tool switches, save bars, and plural\n- use stolon streams, lookups, and disk helpers\n- raise stolon to 12.4.9\n- fix gray badge class\n- shorter settings help, one line each\n- copied badge, wider status column, drop cache button\n- keep server dots colored after a refresh\n- one content table with copied, linked, cached filters\n- show access and link check tables with dashes first\n- update storage docs and screenshots\n- keep library rows short enough for phones\n- storage page gets tabs, library rows, and a sidecar\n- full size cards on the queue page\n- keep one pending card with the split on hover\n- add a route that counts storage per library\n- give direction its own step in the server editor\n- put servers before storage in the sidebar\n- count all pending work on the content page\n- even out the server editor and name steps by title\n- even out settings spacing and fix the watched field\n- use icons instead of numbers in the server editor\n- order the sidebar and gray empty tables\n- bring back approval cards and full size content cards\n- drop the short lived pending cards from content\n- give people its own icon\n- docs and shots for the per type sync tools\n- split sync into one tool per sync type\n- color sync tiles by whether the type is on\n- tighten the settings section intros\n- document icon tiles on settings pages\n- add icon tiles to the troubleshooting resets\n- add icon tiles to settings and storage sections\n- drop the old database test and wait out removals\n- set the release to 12.4.1.0\n- link the docs at zooid.siphonophore.org\n- Fix documentation link for Zooid\n- pull the plugin image from the brand repo\n- explain the name in the readme\n- list both channels in the release guide\n- use the stable repo url\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/siphonophore-org/zooid/releases/download/v12.4.2026.2/zooid-12.4.2026.2.zip",
+        "checksum": "96f98e88098cbd7c48e20e1bd9b5189b",
+        "timestamp": "2026-11-27T23:12:30Z"
+      },
       {
         "version": "12.4.2026.1",
         "changelog": "Unstable build from `a1cbca0` on the unstable branch.\n\n## Changes\n- count unstable builds up from the last one\n- document the counted unstable versions\n- count unstable builds up from the last one\n- build unstable releases as drafts first\n- note unstable releases go through a draft\n- build unstable releases as drafts first\n- release unstable every friday by date\n- document the dated unstable builds\n- release unstable every friday by date\n- use the stable and unstable repo urls\n- point repo links at repo.siphonophore.org\n- rewrite the docs for the first release\n- retake every screenshot on the tool pages\n- move endpoints to sync and drop upgrade code\n- bump stolon to 12.4.8\n- let sidecar change tables grow unpinned\n- move sync details into sidecars\n- use stolon close buttons in sync dialogs\n- match any tag case in escape tests\n- shorten the statistics intro\n- fill the usage bars, space the callout\n- usage callout, health bar, one servers intro\n- usage moves to statistics, diagram goes\n- bump stolon to 12.4.6\n- queue columns and a health bar past 12\n- bump stolon to 12.4.5\n- server dots and queue bar on the dashboard\n- dashboard cards keep one shape\n- bump stolon to 12.4.4\n- line hours up with the speed columns\n\n**Full Changelog**: https://github.com/siphonophore-org/zooid/commits/v12.4.2026.1",

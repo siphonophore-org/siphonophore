@@ -47,5 +47,19 @@
     "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
     "version": "12.4.1.5",
     "targetAbi": "12.4.0.0"
+  },
+  "https://github.com/siphonophore-org/necto/releases/download/v12.4.2026.1/necto-12.4.2026.1.zip": {
+    "updated": "2026-11-27T23:14:38Z",
+    "checksum": "bb12f88384eab1c5557a2a3da044a59d",
+    "guid": "a8b5ecb0-fc00-428b-85e8-74b85820166d",
+    "version": "12.4.2026.1",
+    "targetAbi": "12.4.0.0"
+  },
+  "https://github.com/siphonophore-org/zooid/releases/download/v12.4.2026.2/zooid-12.4.2026.2.zip": {
+    "updated": "2026-11-27T23:12:29Z",
+    "checksum": "96f98e88098cbd7c48e20e1bd9b5189b",
+    "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
+    "version": "12.4.2026.2",
+    "targetAbi": "12.4.0.0"
   }
 }
