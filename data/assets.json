@@ -61,5 +61,12 @@
     "guid": "d25d4326-c40f-450a-95d1-377254a318ac",
     "version": "12.4.2026.2",
     "targetAbi": "12.4.0.0"
+  },
+  "https://github.com/siphonophore-org/necto/releases/download/v12.4.2026.2/necto-12.4.2026.2.zip": {
+    "updated": "2026-11-28T02:15:16Z",
+    "checksum": "a6f3cebf09df27c01e4f7ce39e814238",
+    "guid": "a8b5ecb0-fc00-428b-85e8-74b85820166d",
+    "version": "12.4.2026.2",
+    "targetAbi": "12.4.0.0"
   }
 }
